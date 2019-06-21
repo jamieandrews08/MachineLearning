@@ -62,7 +62,7 @@ This repository contains code used for ML projects that focused on:
 
 
 
-#######_Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Please feel free to email jandrews63@gatech.edu with any questions or comments._
+_Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Please feel free to email jandrews63@gatech.edu with any questions or comments._
    
 
        
