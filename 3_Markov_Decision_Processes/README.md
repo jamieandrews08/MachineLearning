@@ -1,33 +1,21 @@
-Jamie Andrews
-April 14, 2019
-CS7641 Spring 2019
-Assignment 4
+# Markov Decision Processes
 
-Code for this assignment is avaiable in a public GitHub repository at:
-https://github.com/jandrews63/CS7641_Assignment4
-(https://github.com/jandrews63/CS7641_Assignment4.git)
 
-The code in this repository was created for CS7641 at Georgia Tech
-Markov Decision Processes
 
-***
-Python analysis code was originally obtained from...
+#### Sources:
+[Chad Maron's GitHub repository](https://github.com/cmaron/CS-7641-assignments/tree/master/assignment4)  
 
-Chad Maron's GotHub repository
-Location of originals: https://github.com/cmaron/CS-7641-assignments/tree/master/assignment4
+[Jonathan Tay's GitHub repository](https://github.com/JonathanTay/CS-7641-assignment-1)  
 
-With additional help from:
-Jonathan Tay's GitHub repository 
-Location of originals: https://github.com/JonathanTay/CS-7641-assignment-1
-***
+
 ------------------------------------------
 
-FILENAME : requirement.txt
-    Outlines the required packages needed to run the code contained in executable files.
+FILENAME : requirement.txt  
+     Outlines the required packages needed to run the code contained in executable files.
 
-FILENAME : run_experiment.py
-    Runs all experiments contained in the repository.
-    Creates MDp environemnst and runs algorithms to solve them.
+FILENAME : run_experiment.py  
+     Runs all experiments contained in the repository.  
+     Creates MDP environements and runs algorithms to solve them.
     
 ------------------------------------------
 
