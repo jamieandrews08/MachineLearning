@@ -10,31 +10,35 @@ Python analysis was based on code originally obtained from...
 
 The data for these files is contained in the 'data' folder. 
 
-FILENAME : **Q0_parsedata.py**
-* ** THIS MUST BE RUN FIRST ** Otherwise, other code will not work.
-* Takes data from CSV files and perfoms some inital pre-processing to meet needs of analaysis. Note: the credit data is randomly sampled by this file.
-* Output is then saved to in HDF format in the 'data' subdirectory.
-
+FILENAME : **Q0_parsedata.py**  
+- *THIS MUST BE RUN FIRST* Otherwise, other code will not work.  
+- Takes data from CSV files and perfoms some inital pre-processing to meet needs of analaysis.  
+- Note: the credit data is randomly sampled by this file.  
+- Output is then saved to in HDF format in the 'data' subdirectory.
+  
+  
 FILENAME: **helper.py**
-  * Contains class definitions and basic functions used for anlayis by other files in this location. 
-  * Functions from this file are imported via python import commands. 
-  * Output is routed to the 'output' directory.
+- Contains class definitions and basic functions used for anlayis by other files in this location.  
+- Functions from this file are imported via python import commands.  
+- Output is routed to the 'output' directory.  
+  
 
 FILENAME: **Q1_cluster.py**
   * Performs k means and GMM clustering on the datasets created by Q0_parsedata.py
-  * Creates output that is routed to the 'output/benchmark' directory.
-
+  * Creates output that is routed to the 'output/benchmark' directory.  
+  
+  
 FILENAME: **Q1_plot.pynb**
   * Creates plots based omn the output of Q1_cluster.py.
   * Creates output that is routed to the 'output/images/benchmark' directory.
     
 FILENAME: **Q2_reduce.py**
   * Applies dimensionality reduction techniques to the data stored in data directory.
-  * Output is routed to the following directories:
-    - 'output/PCA', 
-    - 'output/ICA', 
-    - 'output/RP'
-    - 'output/RF'
+  * Output is routed to the following directories:  
+     'output/PCA'  
+     'output/ICA'  
+     'output/RP'  
+     'output/RF'
        
 
 FILENAME: **Q2_plot.py**
