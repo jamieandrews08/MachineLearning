@@ -1,8 +1,6 @@
 # MachineLearning
 Machine Learning projects performed for CS7641 at Georgia Tech in Spring 2019
 
-_Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Analysis reports can be obtained by emailing jandrews63@gatech.edu_ 
-
 This repository contains code used for ML projects that focused on:
  * Supervised Learning
  * Randomized Optimization
@@ -11,26 +9,26 @@ This repository contains code used for ML projects that focused on:
  
  
  ### Supervised Learning: 
-  - Uses two data sets obtained from [UCI Machine Learning Repository] (https://archive.ics.uci.edu/ml/index.php)
-  - Both datasets were altered so they contain a binary target variable that algorithms seek to classify correctly
-  - Classification performed using:
-        * Decision Trees
-        * Neural Network (ANN) 
-        * Boosting
-        * Support vector Machine (SVM)
-        * k-Nearest Neighbor (kNN)
+ - Uses two data sets obtained from [UCI Machine Learning Repository] (https://archive.ics.uci.edu/ml/index.php)
+ - Both datasets were altered so they contain a binary target variable that algorithms seek to classify correctly
+ - Classification performed using:
+    * Decision Trees
+    * Neural Network (ANN) 
+    * Boosting
+    * Support vector Machine (SVM)
+    * k-Nearest Neighbor (kNN)
         
         
 ### Randomized Optimization:
-  - Uses Randomized optimization to assign weights to an ANN (using one of the data sets from Supervised Learning analysis)
-  - Uses Randomized optimization techniques to solve classic optimization problems such as:
-        - Travelling Salesman
-        - Knapsack 
-        - Four Peaks
-  - Randomized Optimization algorithms used for ANN weights and classic problems:
-        * Random Hill Climbing
-        * Simulated Annealing
-        * Genetic Algorithm
+ - Uses Randomized optimization to assign weights to an ANN (using one of the data sets from Supervised Learning analysis)
+ - Uses Randomized optimization techniques to solve classic optimization problems such as:
+   - Travelling Salesman
+   - Knapsack 
+   - Four Peaks
+ - Randomized Optimization algorithms used for ANN weights and classic problems:
+   * Random Hill Climbing
+   * Simulated Annealing
+   * Genetic Algorithm
         
         
 ### Unsupervised Learning and Dimensionality Reduction:
@@ -54,18 +52,18 @@ This repository contains code used for ML projects that focused on:
    
    
 ### Markov Decision Processes:
-  - Uses Reinforcement Learning algorithms to solve two classic games that are also MDPs
-  - Games used are a small 8x8 Frozen Lake and a larger 20x20 Frozen Lake
-  - Different rewards and step costs are used to interpret their affect on the outcome
-  - Algorithms used to solve the MDPs are:
-      * Value Iteration
-      * Policy Iteration
-      * Q-Learning
+- Uses Reinforcement Learning algorithms to solve two classic games that are also MDPs
+- Games used are a small 8x8 Frozen Lake and a larger 20x20 Frozen Lake
+- Different rewards and step costs are used to interpret their affect on the outcome
+- Algorithms used to solve the MDPs are:
+  * Value Iteration
+  * Policy Iteration
+  * Q-Learning
        
 
 
 
-_If you have any questions or comments please feel free to conatct me at jandrews63@gatech.edu_
+_Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Analysis reports can be obtained by emailing jandrews63@gatech.edu_
    
 
        
