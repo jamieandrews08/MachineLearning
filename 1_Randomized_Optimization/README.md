@@ -2,11 +2,11 @@
 ## Randomized Optimization Project
 Assignment 2 for CS7641 at Georgia Tech, Spring 2019
 
-Python analysis was based on code originally obtained from [Jonathan Tay's GitHub repository](https://github.com/JonathanTay/CS-7641-assignment-2) and edited to fit the needs of this assignment.
-
-Classic optimization problems partly modeled after Genevieve Hayes' examples in her [mlrose documentation]
+Sources:
+ - Python analysis was based on code originally obtained from [Jonathan Tay's GitHub repository](https://github.com/JonathanTay/CS-7641-assignment-2) and edited to fit the needs of this assignment.
+- Classic optimization problems partly modeled after Genevieve Hayes' examples in her [mlrose documentation]
 (https://mlrose.readthedocs.io/en/stable/source/intro.html). 
-***
+
 
 The files contained in this repository utilize four different unsupervised learning alhgorithms.
 
