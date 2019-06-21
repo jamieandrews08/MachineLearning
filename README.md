@@ -20,7 +20,7 @@ This repository contains code used for ML projects that focused on:
         
         
 ### Randomized Optimization:
- - Uses Randomized optimization to assign weights to an ANN (using one of the data sets from Supervised Learning analysis)
+ - Uses Randomized optimization to assign weights to an ANN
  - Uses Randomized optimization techniques to solve classic optimization problems such as:
    - Travelling Salesman
    - Knapsack 
@@ -48,7 +48,6 @@ This repository contains code used for ML projects that focused on:
         * Use the reduced data created by each method in Part 2 as input
         * Use the reduced data of each method from Part 2 and cluster labels from each algorithm in Part 3
   
-   (The write up then compares the results from all 12 models to results of ANN created in Supervised Learning project.)
    
    
 ### Markov Decision Processes:
@@ -63,7 +62,7 @@ This repository contains code used for ML projects that focused on:
 
 
 
-_Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Analysis reports can be obtained by emailing jandrews63@gatech.edu_
+#######_Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Please feel free to email jandrews63@gatech.edu with any questions or comments._
    
 
        
