@@ -1,7 +1,7 @@
 # MachineLearning
 Machine Learning projects performed for CS7641 at Georgia Tech in Spring 2019
 
-_Please note that analysis reports that detail the results/findings of these projects is not included in this repository. Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Analysis reports can be obtained by emailing jandrews63@gatech.edu_ 
+_Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Analysis reports can be obtained by emailing jandrews63@gatech.edu_ 
 
 This repository contains code used for ML projects that focused on:
  * Supervised Learning
@@ -65,7 +65,7 @@ This repository contains code used for ML projects that focused on:
 
 
 
-_If you have any questions or comments please feel free to conatct me at jandrews63@gatech.edu _
+_If you have any questions or comments please feel free to conatct me at jandrews63@gatech.edu_
    
 
        
