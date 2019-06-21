@@ -1,7 +1,7 @@
 # MachineLearning
 Machine Learning projects performed for CS7641 at Georgia Tech in Spring 2019
 
-_Please note that analysis reports that details the results and findings of these projects is not included in this repository. Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Analysis reports can be obtained by emailing jandrews63@gatech.edu_ 
+_Please note that analysis reports that detail the results/findings of these projects is not included in this repository. Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Analysis reports can be obtained by emailing jandrews63@gatech.edu_ 
 
 This repository contains code used for ML projects that focused on:
  * Supervised Learning
@@ -54,6 +54,16 @@ This repository contains code used for ML projects that focused on:
    
    
 ### Markov Decision Processes:
+  - Uses Reinforcement Learning algorithms to solve two classic games that are also MDPs
+  - Games used are a small 8x8 Frozen Lake and a larger 20x20 Frozen Lake
+  - Different rewards and step costs are used to interpret their affect on the outcome
+  - Algorithms used to solve the MDPs are:
+       1) Value Iteration
+       2) Policy Iteration
+       3) Q-Learning
+       
+
+If you have any questions or comments please feel free to conatct me at jandrews63@gatech.edu 
    
 
        
