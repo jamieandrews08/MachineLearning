@@ -8,101 +8,100 @@
 
 ---------------------------------
 #### Files in this directory
-<dl>
-   <dt>requirement.txt </dt> 
-    <dd>Outlines the required packages needed to run the code contained in executable files.<dd>
 
-   <dt>run_experiment.py  </dt>
-    <dd>Runs all experiments contained in the repository.<dd> 
-     <dd>Creates MDP environements and runs algorithms to solve them. <dd>
-</dl>
+**requirement.txt** 
+- Outlines the required packages needed to run the code contained in executable files.
+
+**run_experiment.py**
+- Runs all experiments contained in the repository.
+- Creates MDP environments and runs algorithms to solve them. 
     
 ---------------------------------
-#### Subdirectory: /environments/
-<dl>
-   <dt>__init__.py </dt>
-    <dd>Provides framework to build MDP environments</dd>
+#### Subdirectory: /environments/  
 
-   <dt>frozen_lake.py</dt>
-   <dd>Creates frozen lake MDP environment. Is not run directly but is accessed by ../run_experiment.py </dd>
+ **__init__.py** 
+  - Provides framework to build MDP environments
 
-   <dt>windy_lake.py </dt>
-   <dd>Creates frozen windy lake MDP environment. Is not run directly but is accessed by ../run_experiment.py </dd> 
-</dl>
+**frozen_lake.py**
+  - Creates frozen lake MDP environment. 
+  - Is not run directly but is accessed by ../run_experiment.py  
+  
+**windy_lake.py**
+  - Creates frozen windy lake MDP environment. 
+  - Is not run directly but is accessed by ../run_experiment.py  
+   
 ---------------------------------
 #### Subdirectory: /experiments/
-<dl>
-   <dt>__init__.py </dt>
-   <dd>Provides framework to build MDP environments </dd>
 
-   <dt>base.py</dt>
-    <dd>Creates basic functions shared by all three solving algorithms. </dd>
-    <dd>Is not run directly but is accessed by ../run_experiment.py </dd>
-    <dd>Output is sent to ../output folder </dd>
+**__init__.py**
+  - Provides framework to build MDP environments 
 
-   <dt>plotting.py </dt>
-    <dd>Creates plots using output from all three solving algorithms. </dd>
-    <dd>Is not run directly but is accessed by ../run_experiment.py </dd>
-    <dd>Output is sent to ../output/images and ../output/report </dd>
+**base.py**
+  - Creates basic functions shared by all three solving algorithms
+  - Is not run directly but is accessed by ../run_experiment.py
+  - Output is sent to ../output folder  
+       
+**plotting.py**
+  - Creates plots using output from all three solving algorithms. 
+  - Is not run directly but is accessed by ../run_experiment.py 
+  - Output is sent to ../output/images and ../output/report 
 
-   <dt>policy_iteration.py </dt>
-    <dd>Contains functions for policy iteration algorithm </dd>
-    <dd>Is not run directly but is accessed by ../run_experiment.py </dd>
-    <dd>Output is sent to ../output/PI </dd>
+**policy_iteration.py**
+  - Contains functions for policy iteration algorithm 
+  - Is not run directly but is accessed by ../run_experiment.py 
+  - Output is sent to ../output/PI 
 
-   <dt>q_learner.py</dt>
-    <dd>Contains functions for Q-learning algorithm </dd>
-    <dd>Is not run directly but is accessed by ../run_experiment.py </dd>
-    <dd>Output is sent to ../output/Q  </dd>
+**q_learner.py**
+   - Contains functions for Q-learning algorithm 
+   - Is not run directly but is accessed by ../run_experiment.py 
+   - Output is sent to ../output/Q  
+   
+**value_iteration.py**
+   - Contains functions for value iteration algorithm 
+   - Is not run directly but is accessed by ../run_experiment.py
+   - Output is sent to ../output/Q
 
-   <dt>value_iteration.py</dt>
-    <dd>Contains functions for value iteration algorithm </dd>
-    <dd>Is not run directly but is accessed by ../run_experiment.py </dd>
-    <dd>Output is sent to ../output/Q </dd>
+**sns_plots.pynb**
+   - Python notebook used tp explore experiment results visually
+   - Creates some graphs. Sends output to ../output/images
 
-   <dt>sns_plots.pynb </dt>
-    <dd>Python notebook used tp explore experiment results visually </dd>
-    <dd>Creates some graphs. Sends output to ../output/images </dd>
-
-</dl>
 ---------------------------------
 #### Subdirectory: /solvers/
-<dl>
-<dt> __init__.py </dt>
-    <dd>imports necessary functions</dd>
 
-<dt>base.py </dt>
-    <dd>Creates basic functions shared by all three solving algorithms. </dd>
-    <dd>Is not run directly but is accessed by ../run_experiment.py </dd>
-    <dd>Output is sent to ../output folder </dd>
+**__init__.py**
+  - imports necessary functions
 
-<dt> policy_iteration.py </dt>
-    <dd>Contains functions for policy iteration algorithm </dd>
-    <dd>Is not run directly but is accessed by ../run_experiment.py </dd>
-    <dd>Output is sent to ../output/PI </dd>
+**base.py**
+  - Creates basic functions shared by all three solving algorithms 
+  - Is not run directly but is accessed by ../run_experiment.py 
+  - Output is sent to ../output folder 
 
-<dt> q_learner.py </dt>
-    <dd>Contains functions for Q-learning algorithm </dd>
-    <dd>Is not run directly but is accessed by ../run_experiment.py </dd>
-    <dd>Output is sent to ../output/Q </dd>
+**policy_iteration.py**
+  - Contains functions for policy iteration algorithm 
+  - Is not run directly but is accessed by ../run_experiment.py 
+  - Output is sent to ../output/PI 
 
-<dt> value_iteration.py </dt>
-    <dd>Contains functions for value iteration algorithm </dd>
-    <dd>Is not run directly but is accessed by ../run_experiment.py </dd>
-    <dd>Output is sent to ../output/Q </dd>
+**q_learner.py**
+  - Contains functions for Q-learning algorithm 
+  - Is not run directly but is accessed by ../run_experiment.py 
+  - Output is sent to ../output/Q 
 
-</dl>   
+**value_iteration.py**
+   - Contains functions for value iteration algorithm 
+   - Is not run directly but is accessed by ../run_experiment.py 
+   - Output is sent to ../output/Q 
+
+
 
 ---------------------------------
 #### Subdirectory: /output 
-  Storage location for CSV files generated by analysis.
-  Note that this subdirectory is empty; all output has been intentionally removed for the purposes of academic honesty.
+  - Storage location for CSV files generated by analysis.
+  - Note that this subdirectory is empty; all output has been intentionally removed for the purposes of academic honesty.
 
 ---------------------------------
 #### Subdirectory: /output/images
-   Storage location for graphs and plots. created by Q*_plot.py files. 
-   Note that this subdirectory is empty;
-     all images have been intentionally removed for the purposes of academic honesty.
+  - Storage location for graphs and plots. created by Q*_plot.py files. 
+  - Note that this subdirectory is empty; all images have been intentionally removed for the purposes of academic honesty.
      
 ---------------------------------  
 
