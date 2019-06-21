@@ -33,7 +33,7 @@ This repository contains code used for ML projects that focused on:
         - Genetic Algorithm
         
         
-### Unsupervised learning and Dimensionality Reduction:
+### Unsupervised Learning and Dimensionality Reduction:
   Uses the same two data sets from Supervised Learning with a binary target variable in a series of experiments
    1) Cluster the data using:
         - k-Means
@@ -58,12 +58,14 @@ This repository contains code used for ML projects that focused on:
   - Games used are a small 8x8 Frozen Lake and a larger 20x20 Frozen Lake
   - Different rewards and step costs are used to interpret their affect on the outcome
   - Algorithms used to solve the MDPs are:
-       1) Value Iteration
-       2) Policy Iteration
-       3) Q-Learning
+      1) Value Iteration
+      2) Policy Iteration
+      3) Q-Learning
        
 
-If you have any questions or comments please feel free to conatct me at jandrews63@gatech.edu 
+
+
+_If you have any questions or comments please feel free to conatct me at jandrews63@gatech.edu _
    
 
        
