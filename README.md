@@ -1,7 +1,7 @@
 # MachineLearning
 Machine Learning projects performed for CS7641 at Georgia Tech in Spring 2019
 
-Please note that analysis reports that details the results and findings of these projects is not included in this repository. Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Analysis reports can be obtained by emailing jandrews63@gatech.edu 
+_Please note that analysis reports that details the results and findings of these projects is not included in this repository. Analysis reports have been omitted at the request of GT professors to insure academic honesty of future students. Analysis reports can be obtained by emailing jandrews63@gatech.edu_ 
 
 This repository contains code used for ML projects that focused on:
  * Supervised Learning
@@ -9,7 +9,8 @@ This repository contains code used for ML projects that focused on:
  * Unsupervised Learning and Dimensionality Reduction
  * Markov Decision Processes
  
- ## Supervised Learning: 
+ 
+ ### Supervised Learning: 
   - Uses two data sets obtained from [UCI Machine Learning Repository] (https://archive.ics.uci.edu/ml/index.php)
   - Both datasets were altered so they contain a binary target variable that algorithms seek to classify correctly
   - Classification performed using:
@@ -20,7 +21,7 @@ This repository contains code used for ML projects that focused on:
         5) k-Nearest Neighbor (kNN)
         
         
-## Randomized Optimization:
+### Randomized Optimization:
   1) Uses Randomized optimization to assign weights to an ANN (using one of the data sets from Supervised Learning analysis)
   2) Uses Randomized optimization techniques to solve classic optimization problems such as:
         - Travelling Salesman
@@ -32,7 +33,7 @@ This repository contains code used for ML projects that focused on:
         - Genetic Algorithm
         
         
-## Unsupervised learning and Dimensionality Reduction:
+### Unsupervised learning and Dimensionality Reduction:
   Uses the same two data sets from Supervised Learning with a binary target variable in a series of experiments
    1) Cluster the data using:
         - k-Means
@@ -52,7 +53,7 @@ This repository contains code used for ML projects that focused on:
    (The write up then compares the results from all 12 models to results of ANN created in Supervised Learning project.)
    
    
-## Markov Decision Processes:
+### Markov Decision Processes:
    
 
        
