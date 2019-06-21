@@ -11,36 +11,32 @@ Python analysis was based on code originally obtained from...
 The data for these files is contained in the 'data' folder. 
 
 FILENAME : **Q0_parsedata.py**  
-- *THIS MUST BE RUN FIRST* Otherwise, other code will not work.  
+- THIS MUST BE RUN FIRST! Otherwise, downstream code will not work.  
 - Takes data from CSV files and perfoms some inital pre-processing to meet needs of analaysis.  
 - Note: the credit data is randomly sampled by this file.  
-- Output is then saved to in HDF format in the 'data' subdirectory.
-  
-  
+- Output is then saved to in HDF format in the 'data' subdirectory.  
+
 FILENAME: **helper.py**
-- Contains class definitions and basic functions used for anlayis by other files in this location.  
-- Functions from this file are imported via python import commands.  
+- Contains class definitions and basic functions used for anlayis by other files in this location.
+- Functions from this file are imported via python import commands.
 - Output is routed to the 'output' directory.  
   
-
 FILENAME: **Q1_cluster.py**
-  * Performs k means and GMM clustering on the datasets created by Q0_parsedata.py
-  * Creates output that is routed to the 'output/benchmark' directory.  
-  
-  
+- Performs k means and GMM clustering on the datasets created by Q0_parsedata.py
+- Creates output that is routed to the 'output/benchmark' directory.  
+
 FILENAME: **Q1_plot.pynb**
-  * Creates plots based omn the output of Q1_cluster.py.
-  * Creates output that is routed to the 'output/images/benchmark' directory.
+- Creates plots based omn the output of Q1_cluster.py.
+- Creates output that is routed to the 'output/images/benchmark' directory.
     
 FILENAME: **Q2_reduce.py**
-  * Applies dimensionality reduction techniques to the data stored in data directory.
-  * Output is routed to the following directories:  
-     'output/PCA'  
-     'output/ICA'  
-     'output/RP'  
-     'output/RF'
-       
-
+- Applies dimensionality reduction techniques to the data stored in data directory.
+- Output is routed to the following directories:
+  - 'output/PCA'
+  - 'output/ICA'
+  - 'output/RP'
+  - 'output/RF'  
+  
 FILENAME: **Q2_plot.py**
   * Plots the output of Q2_reduce.py
   * Utilizes the data in the data folder.
@@ -57,66 +53,71 @@ FILENAME: **Q3_cluster.py**
    - 'output/PCA', 
    - 'output/ICA', 
    - 'output/RP'
-   - 'output/RF'
+   - 'output/RF'  
+   
 
 FILENAME: **Q3_plot.py**
-  - Plots the output of Q3_cluster.py
-  - Utilizes data in the following locations:
-    - 'output/PCA', 
-    - 'output/ICA', 
-    - 'output/RP'
-    - 'output/RF'
-  - Output is routed to the following locations:
-        'output/images/PCA' 
-        'output/images/ICA' 
-        'output/images/RP' 
-        'output/images/RF' 
+- Plots the output of Q3_cluster.py
+- Utilizes data in the following locations:
+   - 'output/PCA', 
+   - 'output/ICA', 
+   - 'output/RP'
+   - 'output/RF'
+- Output is routed to the following locations:
+  - 'output/images/PCA' 
+  - 'output/images/ICA' 
+  - 'output/images/RP' 
+  - 'output/images/RF'  
+  
 
 FILENAME: **Q4_ANN.py**
 - Creates neural network models using reduced data. Performs some exploratory plotting of NN outputs.
+- Utilizes data in the following locations:
+   - 'output/PCA'
+   - 'output/ICA'
+   - 'output/RP'
+   - 'output/RF'
+- Creates CSV output that is routed to the following locations:
+  - 'output/PCA'
+  - 'output/ICA'
+  - 'output/RP'
+  - 'output/RF'
+- Creates images that are routed to the following locations:
+  - 'output/images/PCA'
+  - 'output/images/ICA'
+  - 'output/images/RP'
+  - 'output/images/RF'  
+  
+
+FILENAME: **Q5_cluster_ANN.py**
+- Performs clustering 
+- Creates neural network models using clustered data 
+- Performs some exploratory plotting of NN outputs.
 - Utilizes data in the following locations:
     - 'output/PCA', 
     - 'output/ICA', 
     - 'output/RP'
     - 'output/RF'
- - Creates CSV output that is routed to the following locations:
-        'output/PCA' 
-        'output/ICA' 
-        'output/RP' 
-        'output/RF' 
-    Creates images that are routed to the following locations:
-        'output/images/PCA' 
-        'output/images/ICA' 
-        'output/images/RP' 
-        'output/images/RF' 
-
-FILENAME: **Q5_cluster_ANN.py**
-  - Performs clustering 
-  - Creates neural network models using clustered data 
-  - Performs some exploratory plotting of NN outputs.
-  - Utilizes data in the following locations:
-    - 'output/PCA', 
-    - 'output/ICA', 
-    - 'output/RP'
-    - 'output/RF'
-  - Creates CSV output that is routed to the following locations:
+- Creates CSV output that is routed to the following locations:
     - 'output/PCA' 
     - 'output/ICA' 
     - 'output/RP' 
     - 'output/RF' 
-  - Creates images that are routed to the following locations:
-        'output/images/PCA' 
-        'output/images/ICA' 
-        'output/images/RP' 
-        'output/images/RF' 
-
+- Creates images that are routed to the following locations:
+    - 'output/images/PCA' 
+    - 'output/images/ICA' 
+    - 'output/images/RP' 
+    - 'output/images/RF'  
+    
 SUBDIRECTORY: **/output** 
   - Storage location for CSV files generated by the python code performing analysis that are located in this directory. 
-  - Note that this subdirectory is empty, all output has been intentionally removed for the purposes of academic honesty.
+  - Note that this subdirectory is empty, all output has been intentionally removed for the purposes of academic honesty.  
+  
 
 SUBDIRECTORY: **/output/images**
   - Storage location for graphs and plots created by Q*_plot.py files. 
-  - Note that this subdirectory is empty, all images have been intentionally removed for the purposes of academic honesty.
+  - Note that this subdirectory is empty, all images have been intentionally removed for the purposes of academic honesty.  
+  
 
 If more information is needed please contact jandrew63@gatech.edu.
 
