@@ -1,5 +1,6 @@
 # MachineLearning
-Machine Learning projects performed for CS7641 at Georgia Tech in Spring 2019
+Machine Learning projects using python.
+Work completed for CS7641 at Georgia Tech in Spring 2019
 
 This repository contains code used for ML projects that focused on:
  * Supervised Learning
